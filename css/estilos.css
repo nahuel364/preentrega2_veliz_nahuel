@@ -1,0 +1,349 @@
+/* ESTILOS GENERALES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: 'Roboto Slab', serif; 
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+
+}
+/*ESTILOS CABEZERA */
+#presentacion{
+    display: flex;
+    height: 180px;
+    background-color:#1D1C0D;
+    align-items: center;
+    justify-content:space-between;
+}
+#presentacion img{
+    width: 160px;
+    height: 160px;
+    margin-left: 10px;
+    border:solid 10px aliceblue;
+    border-radius: 90%;
+    background-image: url(../assets/img/perfil.JPG);
+    background-size: cover;
+    order: 1;
+}
+#presentacion h1{
+    width: 300px;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 4rem;
+    color: aliceblue;
+    text-align: center;
+    letter-spacing: 5px;
+    order: 2;
+ }
+.redes{
+    display: flex;
+    order: 3;
+    flex-direction: column;
+}
+.redes a{
+    font-size: 4rem;
+    margin: 5px;
+    color: aliceblue; 
+    padding-right: 20px;
+}
+#what{
+    color:#25D366;
+}
+/* ESTILOS NAV */
+nav{
+    display: flex;
+    background-color:#94935D;
+    height: 30px;
+    justify-content:center;
+    align-items: center;
+    
+}
+nav a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    letter-spacing: 5px;
+    color: aliceblue;
+    margin-left: 50px;
+    padding: 1.1rem;
+    border-radius: 3px;
+}
+nav a:hover{
+   
+    background-color:#f2ff0044;  
+}
+/* ESTILOS SLIDER */
+#slider{
+    height:500px ;
+    background-color: chocolate;
+    background-image: url(../assets/img/slider.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+/* ESTILOS MAIN */
+
+/* SECCION SOBRE MI */
+.sobre__mi{
+    height: 500px;
+    background-color: crimson;
+    padding-left: 400px;
+    padding-top: 60px;
+    background-image: url(../assets/img/yo_c.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 90px;
+}
+.sobre__mi h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+}
+.sobre__mi p{
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+/* SECCION PORTFOLIO */
+#portfolio{
+    height: 500px;
+    background-image: url(../assets/img/fondo_port.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section__portfolio{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#portfolio a{
+    margin: 10px;
+    text-decoration: none;
+}
+#portfolio h2{
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    background-color: rgba(240, 248, 255, 0.24);
+}
+.foto{
+    width: 350px;
+    height: 200px;
+    background-image: url(../assets/img/camera-retro-solid.svg);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.video{
+    width: 350px;
+    height: 200px;
+    background-image: url(../assets/img/film-solid.svg);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cv{
+    width: 350px;
+    height:200px;
+    background-image: url(../assets/img/id-card-solid.svg);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.text{
+    text-align: center;
+    margin-top: 50px;
+    color: aliceblue;
+    font-family: 'Roboto Slab', serif;
+    padding: 10px;
+    padding-top: 120px;
+    font-size: 1.2rem; 
+}
+.text h3{
+    letter-spacing: 5px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 3rem;
+    border: 2px solid white;
+}
+/* ESTILOS PAGINAS */
+
+/* PAGINA GALERIA */
+.main__galeria{
+    background-image: url(../assets/img/denim.webp);
+    color: aliceblue;
+}
+.section__galeria{
+    padding: 50px;
+}
+.section__galeria h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+}
+.section__galeria p{
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+/* PAGINA VIDEO */
+.main__video{
+    display: flex;
+    background-image: url(../assets/img/denim.webp);
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+}
+.section__videos h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+}
+.section__videos p{
+    font-size:2rem;
+    margin-bottom: 50px;
+}
+/* PAGINA CV */
+.main__cv{
+    background-image: url(../assets/img/denim.webp);
+    color: aliceblue;
+}
+.section__cv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+.section__cv h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+}
+.section__cv p{
+    font-size:2rem;
+    padding-bottom: 50px;   
+}
+.bton_descargar{
+    display: flex;
+    width: 18rem;
+    height: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: #1D1C0D;
+    background-color:#F2FF00;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1rem 1rem 1px rgba(0,0,0,0.8);
+}
+.bton_descargar:hover{
+    cursor: pointer;
+}
+/* PAGINA CONTACTO */
+.main__contacto{
+    background-image: url(../assets/img/denim.webp);
+    color: aliceblue;
+}
+.section__contacto{
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section__contacto h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 1rem;
+}
+.section__contacto p{
+    font-size: 2rem;
+    margin-bottom: 50px;
+} 
+.section__contacto2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    padding-bottom: 5rem;
+}
+.map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45rem;
+    height: 35rem;
+    background-color: #94935D;
+    box-shadow: 0px 0px 16px 9px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 0px 16px 9px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 16px 9px rgba(0,0,0,1);
+    margin-right: 20rem;    
+}
+.map iframe{
+    padding: 0px auto;
+}
+.link a{
+    font-size: 7rem;
+    margin: 20px;
+    color: #F2FF00;
+}
+/* ESTILOS FOOTER */
+footer{
+    background-color: black;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.footer__nav{
+    display: flex;
+    justify-content: center;
+    padding:2rem;
+}
+.footer__nav a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+}
+.footer__redes{
+    display: flex;
+    justify-content: center;
+ 
+}   
+.footer__redes a{
+    font-size: 3rem;
+    margin: 10px;
+    color: aliceblue;
+} 
+
+.footer__section__1{
+    height: 40px;
+    background-color:#1D1C0D;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: aliceblue;
+    padding: 2rem;
+}
+
+
