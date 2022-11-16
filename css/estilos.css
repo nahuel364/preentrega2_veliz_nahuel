@@ -127,7 +127,8 @@ nav a:hover{
 .section__portfolio{
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    margin-top: 5rem;
 }
 #portfolio a{
     margin: 10px;
@@ -139,39 +140,38 @@ nav a:hover{
     text-transform: uppercase;
     letter-spacing: 10px;
     background-color: rgba(240, 248, 255, 0.24);
+    color: #F2FF00;
+    text-shadow: 5px 1px 1px #459F92;
 }
-.foto{
-    width: 350px;
-    height: 200px;
-    background-image: url(../assets/img/camera-retro-solid.svg);
-    background-size: 20%;
-    background-repeat: no-repeat;
-    background-position: center;
+.card_foto{
+   width: 30rem;
+   background-color: rgb(255, 255, 255,0.2);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 1rem;
 }
 
-.video{
-    width: 350px;
-    height: 200px;
-    background-image: url(../assets/img/film-solid.svg);
-    background-size: 20%;
+.card_video{
+    width: 30rem;
+    /* background-image: url(../assets/img/film-solid.svg); */
+    /* background-size: 20%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
 }
-.cv{
-    width: 350px;
-    height:200px;
-    background-image: url(../assets/img/id-card-solid.svg);
+.card_cv{
+    width: 30rem;
+    /* background-image: url(../assets/img/id-card-solid.svg);
     background-size: 20%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
 }
 .text{
     text-align: center;
-    margin-top: 50px;
     color: aliceblue;
     font-family: 'Roboto Slab', serif;
     padding: 10px;
-    padding-top: 120px;
     font-size: 1.2rem; 
 }
 .text h3{
