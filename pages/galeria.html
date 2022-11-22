@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- link_bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <!-- estilos_css -->
-    <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/estilos.css">
     <!-- fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,46 +21,102 @@
 
 <body>
     <header>
-        <div id="presentacion">
-            <div class="redes">
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-square-behance"></i></a>
-                <a href=""><i id="what" class="fa-brands fa-square-whatsapp"></i></a>
+        <!-- menu interior -->
+        <div class="collapse color_menu" id="navbarHeader">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-7 py-4">
+                <div class="redes">
+                    <a href="https://www.instagram.com/nveliz36/"target="blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-square-behance"></i></a>
+                    <a href="https://wa.me/1159347414"target="blank"><i id="what" class="fa-brands fa-square-whatsapp"></i></a>
+                    <img></img>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 offset-md-1 py-4">
+                <ul class="list-unstyled">
+                  <li><a href="../index.html" class=""><i class="fa-solid fa-house icon_menu"></i>INICIO</a></li>
+                  <li><a href="../index.html #portfolio" class=""><i class="fa-solid fa-briefcase  icon_menu"></i>PORTFOLIO</a></li>
+                  <li><a href="./contacto.html" class=""><i class="fa-solid fa-address-book  icon_menu"></i>CONTACTO</a></li>
+                </ul>
+              </div>
             </div>
-            <h1>NAHUEL VELIZ</h1>
-            <img></img>
+          </div>
         </div>
-            <nav>
-                <a href="../index.html #presentacion">INICIO</a>
-                <a href="../index.html #portfolio">PORTFOLIO </a>
-                <a href="../pages/contacto.html">CONTACTO </a>
-            </nav>
-    </header>
+        <!-- menu exterior -->
+        <div class="navbar navbar-dark navestilo shadow-sm">
+          <div class="container">
+            <a href="../index.html" class="navbar-brand d-flex align-items-center">
+                <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+                <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+                <lord-icon
+                    src="https://cdn.lordicon.com/hbvyhtse.json"
+                    trigger="loop"
+                    delay="2000"
+                    colors="primary:#ffffff"
+                    style="width:50px;height:50px">
+                </lord-icon>
+              <strong>NAHUEL VELIZ</strong>
+            </a>
+            <button class="navbar-toggler menur" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon "></span>
+            </button>
+          </div>
+        </div>
+      </header>
     <main class="main__galeria">
         <section class="section__galeria">
-            <h2>galeria</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Laudantium magnam unde explicabo omnis pariatur rerum ullam,<br> iure doloremque saepe totam harum voluptas quisquam neque adipisci<br> temporibus nihil quaerat, eius qui.</p>
-
-            <div>
-                <img src="../assets/img/retratos/1b.jpg" alt="">
-                <img src="../assets/img/retratos/2b.jpg" alt="">
-                <img src="../assets/img/retratos/3b.jpg" alt="">
-                <img src="../assets/img/retratos/4b.jpg" alt="">
-                <img src="../assets/img/retratos/5b.jpg" alt="">
+          <div class="text-center">
+            <h2>galería</h2>
+            <p>Una muestra de mi trabajo como fotógrafo de retrato,<br> donde también aplico conocimientos de encuadre,<br> iluminación y posproducción.</p>
+          </div>
+            <div class="row justify-content-center hover_img">
+                <div class="col-lg-5 col-sm-12 mb-4">
+                    <img src="../assets/img/retratos/1b.jpg" alt="">
+                </div>
+                <div class="col-lg-5 col-sm-12 mb-4">
+                    <img src="../assets/img/retratos/2b.jpg" alt="">
+                </div>
+                <div class="col-lg-5 col-sm-12 mb-4">
+                    <img src="../assets/img/retratos/3b.jpg" alt="">
+                </div>
+                <div class="col-lg-5 col-sm-12 mb-4">
+                    <img src="../assets/img/retratos/4b.jpg" alt="">
+                </div>
+                <div class="col-lg-5 col-sm-12 mb-4">
+                    <img src="../assets/img/retratos/5b.jpg" alt="">
+                </div>
+                <div class="col-lg-5 col-sm-12 mb-4">
+                    <img src="../assets/img/retratos/6b.jpg" alt="">
+                </div>
+                <div class="col-lg-5 col-sm-12 mb-4">
+                    <img src="../assets/img/retratos/7b.jpg" alt="">
+                </div>
+                <div class="col-lg-5 col-sm-12 mb-4">
+                    <img src="../assets/img/retratos/8b.jpg" alt="">
+                </div>
+                <div class="col-lg-5 col-sm-12 mb-4">
+                    <img src="../assets/img/retratos/9b.jpg" alt="">
+                </div>
+                <div class="col-lg-5 col-sm-12 mb-4">
+                    <img src="../assets/img/retratos/10b.jpg" alt="">
+                </div>
+                
             </div>
         </section>
+    
     </main>
     <footer>
         <section class="footer__nav">
-                <a href="../index.html #presentacion">INICIO /</a>
-                <a href="../index.html #portfolio">PORTFOLIO /</a>
-                <a href="../pages/contacto.html">CONTACTO /</a>
+                <a href="../index.html">INICIO</a>
+                <a href="../index.html #portfolio">PORTFOLIO</a>
+                <a href="./contacto.html">CONTACTO</a>
         </section>
 
         <section class="footer__redes">
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.instagram.com/nveliz36/"target="blank"><i class="fa-brands fa-instagram"></i></a>
             <a href=""><i class="fa-brands fa-square-behance"></i></a>
-            <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+            <a href="https://wa.me/1159347414"target="blank"><i class="fa-brands fa-square-whatsapp"></i></a>
         </section>    
 
         <section class="footer__section__1">
@@ -68,4 +124,6 @@
         </section>
         
     </footer>
+    <!-- js_bootstrap -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
